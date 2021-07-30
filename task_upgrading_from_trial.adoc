@@ -1,0 +1,30 @@
+---
+sidebar: sidebar 
+permalink: task_upgrading_from_trial.html 
+keywords: netapp, saas backup, salesforce, getting started 
+summary: 無償トライアルからライセンス版の SaaS Backup にアップグレードできます。 
+---
+= 無償トライアルからアップグレードしています
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+無償トライアルからアップグレードするには、有料サブスクリプションで発行されたシリアル番号が必要です。
+
+.手順
+. ダッシュボードの左上で、をクリックします image:configure_icon.jpg["設定アイコン"]。
+. [ サービス設定 *] で、 [*Salesforce] を選択します。
+. [ サブスクリプションの詳細 * ] の横にある [ * 更新 * ] をクリックします。
+. 「 * NetApp License * 」を選択します。
+. ライセンスのユーザ名、パスワード、およびシリアル番号を入力します。
+. [* サブスクリプションの検証 * ] をクリックします。ライセンス情報の確認が表示されます。
+

@@ -1,0 +1,40 @@
+---
+sidebar: sidebar 
+permalink: task_performing_immediate_backup.html 
+keywords: netapp, saas backup, salesforce, managing, backups, immediate, backup, policies 
+summary: SaaS Backup for Salesforce を使用してデータをバックアップできます。 
+---
+= 即時バックアップを実行する
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+データ保護に必要と判断した場合は、本番インスタンスまたはサンドボックスインスタンスのバックアップをすぐに実行できます。
+
+
+NOTE: SaaS Backup for Salesforce の試用版では、 1 日に 3 回の即時バックアップしか実行できません。
+
+.手順
+. 左ペインのナビゲーションで、 * サービス * をクリックします。image:services.jpg[""]
+. [* プロダクションインスタンス * ] または [ * サンドボックスインスタンス * ] をクリックします。image:production_instances.gif[""]
+image:sandbox_instances.gif[""]
+. 今すぐバックアップする正しいインスタンスを選択してください。
++
+.. バックアップするインスタンスがバックアップポリシーで現在保護されている場合は、上記の * 保護されているインスタンス * をクリックします。
+.. バックアップするインスタンスのバックアップ・ステータスが保留中の場合は、上記の * 保留中インスタンス * をクリックします。
+.. バックアップポリシーによって現在保護されていないインスタンスがある場合は、上記の * 保護されていないインスタンス * をクリックします。
+
+
+. 組織の名前をクリックします。image:organization.jpg[""]
+. [ 今すぐバックアップ ] をクリックします。選択した組織がバックアップキューに配置されていることを示すメッセージが表示されます。
+. [Submit （送信） ] をクリックします。
+

@@ -1,0 +1,41 @@
+---
+sidebar: sidebar 
+permalink: task_creating_system_admin.html 
+keywords: netapp, saas backup, salesforce, getting started, signing up, creating, create, system, admin, administrator, account 
+summary: SaaS Backup for Salesforce の使用を開始するには、 Salesforce システム管理者アカウントを作成するオプションがあります。 
+---
+= Salesforce システム管理者アカウントを作成する
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+SaaS Backup for Salesforce にサインアップすると、既存の Salesforce システム管理者アカウントを使用するか、新しいアカウントを作成することができます。
+
+.手順
+. にログインします link:https://www.salesforce.com/["Salesforce の場合"] 既存のシステム管理者アカウントを使用します。
+. クラシックな体験に切り替えるには、 [ プロファイルの表示 ] をクリックし、 [*] をクリックして [Salesforce クラシックに切り替える *] をクリックします。これはオプションです。
+. [* Setup * （セットアップ * ） ] タブをクリックします。
+. [*Administer （管理） ] で [* Manage Users （ユーザーの管理） ] をクリックし、 [* Users （ユーザー） ] をクリックします。image:search_administer_manage_users.gif["画像は、管理下でのユーザーの検索を示しています"]
+. [*Users*] の下にある [New User*] をクリックします。
+. 次のガイダンスに従って、必要な情報を入力します。
++
+.. * Role * は空のままにしておきます。
+.. [ ユーザーライセンス *] で、 [*Salesforce] を選択します。
+.. 「 * プロファイル」で「 * システム管理者 * 」を選択します。
+.. 次の点を確認します。image:check_mark.gif["[ 画像表示 ] チェックボックスがオンになっている"] マーケティングimage:check_mark.gif["[ 画像表示 ] チェックボックスがオンになっている"] オフラインですimage:check_mark.gif["[ 画像表示 ] チェックボックスがオンになっている"] サービスクラウドimage:check_mark.gif["[ 画像表示 ] チェックボックスがオンになっている"] Salesforce CRM のコンテンツユーザ。
+
+
+. [ 保存（ Save ） ] をクリックします。
+. [* ユーザー * ] で、新しく作成したアカウントをクリックし、 [ パスワードのリセット * ] をクリックします。
+. メールアカウントに移動して確認し、新しいアカウントを確認します。表示されるリンクから、アカウントのパスワードを作成するように求められます。
+. にログインします link:https://www.salesforce.com/["Salesforce の場合"] 新しいアカウントのクレデンシャルを使用してアカウントをアクティブ化します。
+

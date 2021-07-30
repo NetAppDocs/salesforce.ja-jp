@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: task_gather_information_byos.html 
+keywords: netapp, saas backup, salesforce, getting started, BYOS, bring, your, own, storage, information, gather, needed, setup 
+summary: BYOS オプションを選択してデータを保存する場合、サインアップする前にストレージに関する関連情報を収集する必要があります。 
+---
+= Bring Your Own Storage （ BYOS ）オプションに関する情報を収集します
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Amazon S3 を使用する場合は、サインアップ前に情報を収集する必要はありません。独自の Amazon S3 バケットを提供している場合は、サインアップの前にストレージに関する次の情報を収集する必要があります。
+
+* バケット名
+* 地域
+* アクセスキー
+* シークレットキー
+

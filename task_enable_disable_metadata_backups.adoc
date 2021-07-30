@@ -1,0 +1,52 @@
+---
+sidebar: sidebar 
+permalink: task_enable_disable_metadata_backups.html 
+keywords: netapp, saas backup, salesforce, enable, enabling, disable, disabling, backup, backups, metadata, metadata backups 
+summary: Salesforce のメタデータバックアップを有効または無効にできます。 
+---
+= メタデータバックアップの有効化と無効化
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Salesforce のメタデータバックアップを有効または無効にできます。
+
+
+
+== メタデータのバックアップの有効化
+
+メタデータのバックアップを有効にすると、テナントアカウント内のすべての組織にメタデータのバックアップが提供されます。
+
+.手順
+. をクリックします image:icon_gear.gif["歯車アイコン"] [ サービス設定 ] で [*Salesforce] を選択します。
++
+image:select_salesforce_settings.gif["Salesforce の設定"]
+
+. 「 * メタデータバックアップを有効にする * 」をクリックして、機能をオンにします。テナントレベルで有効にすると、すべての組織のメタデータがバックアップされます。
+
+
+
+
+== メタデータのバックアップを無効にする
+
+メタデータのバックアップは、組織レベルで無効にすることができます。すべての組織でメタデータのバックアップを有効にすると、メタデータのバックアップを作成しない組織を制御できるようになります。
+
+.手順
+. メタデータのバックアップを無効にするには、「 * サービス * 」を参照してください。
+. [ 本番インスタンス * ] または [ サンドボックスインスタンス * ] を選択します。
+. 保護された * インスタンスの数を選択します。
+. メタデータのバックアップを無効にする組織を選択します。
+. 「 * Metadata Backup * 」をクリックして機能をオフにします。
++
+image:disable_metadata_backup.gif["メタデータのバックアップを無効にします"]
+
+

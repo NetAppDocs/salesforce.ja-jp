@@ -1,0 +1,56 @@
+---
+sidebar: sidebar 
+permalink: task_comparing_restoring.html 
+keywords: netapp, saas backup, salesforce, managing, restores, comparing, restoring, recent, previous, backup, compare, comparison 
+summary: SaaS Backup for Salesforce を使用して、以前にバックアップしたデータを比較してリストアできます。 
+---
+= バックアップの違いを比較およびリストアする
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+SaaS Backup for Salesforce を使用して、バックアップの違いを比較してリストアできます。
+
+.手順
+. 左ペインのナビゲーションで、 * ジョブ * をクリックします。image:jobs.jpg["「ジョブ」ボタン"]
+. 「最近完了したジョブ」で、バックアップと比較するオブジェクトを含むバックアップを選択します。
+. 組織をクリックします。
+. バックアップと比較するオブジェクトを選択します。
+. 比較アイコンをクリックします。image:compare_icon.jpg["比較アイコンが強調表示されたのスクリーンショット"]
+. [ 前回のバックアップ ] の横で、比較に使用するバックアップの最初の日付を選択します。
+. [ 現在のバックアップ ] の横で、比較に使用するバックアップの 2 番目の日付を選択します。
+. [COMPARE] をクリックします。image:compare.jpg["[ 比較 ] ボタン"]
++
+
+NOTE: 選択した 2 つのバックアップに違いがない場合、比較ジョブは作成されません。
+
+. [ * ジョブの進捗状況の表示 * ] をクリックします。
++
+ジョブが完了すると、「最近完了したジョブ」の下に表示されます。
+
+. 組織数または成功数をクリックします。image:completed_compare_job_click_arrow.gif["クリックして結果を表示する比較ジョブが完了しました"]
++
+ウィンドウが開き、ジョブのステータスが表示されます。image:compare_job_results_window_arrow.gif["[ ジョブ結果の比較 ] ウィンドウ"]
+
+. オブジェクト名をクリックすると結果が表示されます。比較ジョブの概要が、選択した 2 つのバックアップ間にオブジェクトで作成、更新、および削除されたレコードの数とともに表示されます。比較ジョブの詳細をダウンロードできます。
++
+.. 比較ジョブの詳細をダウンロードするには、をクリックします image:download_compare_results.gif["アイコンをクリックして、比較結果をダウンロードします"]。
+.. ファイルを解凍して結果を確認します。
+
+
+. [* リストア ] をクリックします。
+. 更新されたすべてのレコードを復元するには、「 * Updated * 」を選択します。削除されたレコードをすべて復元するには、「削除済み」を選択します。オプションが使用可能な場合は、両方を選択することもできます。
+. [SUMBIT] をクリックします。
++
+ジョブは上書きされず、関係もなくリストアされます。
+
+

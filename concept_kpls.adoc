@@ -1,0 +1,60 @@
+---
+sidebar: sidebar 
+permalink: concept_kpls.html 
+keywords: netapp, saas backup, salesforce, known, problems, limitations, release, notes 
+summary: SaaS Backup の既知の問題および制限事項は次のとおりです。 
+---
+= 既知の問題および制限
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+以下に、 SaaS Backup for Salesforce の既知の問題と制限事項を示します。
+
+
+
+== 一部のオブジェクトのバックアップで欠落しているレコード（不具合 #1169 ）
+
+組織のフルバックアップまたは増分バックアップの実行後、検出されたレコードの総数と、ダウンロードされたレコードの総数との不一致が小さい場合があります。これは、特定のフィールドがクエリに追加され、その結果、すべてのレコードを返さないように Salesforce API を原因する場合に発生します。
+
+
+
+== スキーマ変更前にバックアップされたレコードの復元はサポートされていません ( 欠陥 #1170)
+
+SaaS Backup では、スキーマ変更前にバックアップされたレコードのリストアはサポートされていません。この場合、リストアは失敗し、次のメッセージが表示されます。 * Restore failed due to schema changes] * 。
+
+
+
+== バックアップから除外されるオブジェクト
+
+SaaS Backup for Salesforce では、次のオブジェクトはバックアップされません。
+
+* Salesforce API を使用して照会できないオブジェクト
+* 汎用クエリをサポートしないオブジェクト
+* Salesforce がフィールドレベルの変更履歴をオブジェクトのレコードに追跡するために使用する履歴オブジェクト。
+
+
+
+
+== プライベートプレビューでサポートされていないフィーチャー
+
+次の機能は、 SaaS Backup for Salesforce のプライベートプレビューバージョンではサポートされていません。
+
+* Salesforce の Chatter 化
+* 関係タイプは次のとおりです
++
+** N ： 1~N ： N の関係
+** 自己関係
+** 循環的な関係
+
+
+

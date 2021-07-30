@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: task_viewing_job_history.html 
+keywords: netapp, saas backup, salesforce, viewing, job, history 
+summary: SaaS Backup for Salesforce で、完了、キャンセル、または失敗したすべてのジョブのリストを表示できます。 
+---
+= ジョブ履歴を表示します
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+
+
+== ジョブ履歴を表示します
+
+SaaS Backup for Salesforce で、完了、キャンセル、または失敗したすべてのジョブのリストを表示できます。
+
+.手順
+. 左ペインのナビゲーションで、 * Reporting * をクリックします。image:reporting.jpg[""]ジョブ履歴が表示されます。
+. 右上隅の * フィルター * をクリックします。image:filter.jpg[""]
+. レポート結果の絞り込みに使用するフィルタを選択します。バックアップポリシー、サービス、またはジョブタイプでフィルタリングできます。
+. [* 検索 ] ボックス内をクリックし、結果を表示する特定のバックアップ・ポリシー、サービス、またはジョブ・タイプを選択します。必要に応じてフィルタを追加します。image:reporting_filter.jpg[""]
+. [ フィルタを適用（ Apply Filter ） ] をクリックする。
+

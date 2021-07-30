@@ -1,0 +1,37 @@
+---
+sidebar: sidebar 
+permalink: task_reauthenticating.html 
+keywords: netapp, saas backup, reauthenticating, reauthentication, tokens, refresh, expired, access 
+summary: バックアップまたはリストアをすぐにキャンセルすることができます。スケジュールされたバックアップをキャンセルすることはできません。 
+---
+= 再認証中です
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Salesforce では、資格情報を再認証する前に、最大 5 つのトークンを使用できます。バックアップまたは復元を開始しようとしたときに、すべてのトークンが使用されていた場合は、「 expired access/refresh token 」というエラーメッセージが表示されます。このメッセージが表示された場合は、次に進む前に再認証する必要があります。
+
+
+toc::[]
+.手順
+. ダッシュボードの左上で、をクリックします image:configure_icon.jpg["設定アイコン"]。
+. [ サービス設定 *] で、 [*Salesforce] を選択します。
+. [ * アクセス許可の付与 * ] をクリックします。
++
+image:grant_access_permissions.jpg["[ アクセス許可の付与 ] アイコン"]
+
+. 再認証する必要があるインスタンスを選択するには、 [* producting] または [* sandbox * ] タブをクリックします。
+. をクリックします image:re_authenticate.jpg["再認証アイコン"]。
++
+認証情報を入力する *Salesforc* にリダイレクトされます。再認証が完了したら、バックアップジョブまたはリストアジョブを開始できます。
+
+

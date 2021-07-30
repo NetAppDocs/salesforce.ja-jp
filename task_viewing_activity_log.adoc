@@ -1,0 +1,30 @@
+---
+sidebar: sidebar 
+permalink: task_viewing_activity_log.html 
+keywords: netapp, saas backup, salesforce, viewing, activity, log 
+summary: SaaS Backup for Salesforce 内で実行されたすべてのアクティビティのリストを表示できます。 
+---
+= アクティビティログの表示
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+SaaS Backup for Salesforce 内で実行されたすべてのアクティビティのリストを表示できます。
+
+.手順
+. 左ペインのナビゲーションで、 * Reporting * をクリックします。image:reporting.jpg[""]
+. [* アクティビティログ * ] をクリックします。
+. 結果を絞り込むには、 * フィルター * をクリックします。image:filter.jpg[""]
+. レポート結果の絞り込みに使用するフィルタを選択します。サービスまたはイベントでフィルタできます。image:activity_log_filter.jpg[""]
+. [* 検索 *] ボックス内をクリックし、結果を表示する特定のサービスまたはイベントを選択します。必要に応じてフィルタを追加します。
+. [ フィルタを適用（ Apply Filter ） ] をクリックする。
+

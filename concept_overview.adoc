@@ -1,0 +1,23 @@
+---
+sidebar: sidebar 
+permalink: concept_overview.html 
+keywords: overview, concepts, features, use case 
+summary: NetApp SaaS Backup for Salesforce は、 Salesforce データを Amazon S3 ストレージにバックアップする、セキュアなクラウドネイティブサービスです。SaaS Backup を使用すると、脅威や予想外の削除からデータを保護できます。 
+---
+= NetApp SaaS Backup for Salesforce の概要
+:toc: macro
+:hardbreaks:
+:toc: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+NetApp SaaS Backup for Salesforce は、 Salesforce データを Amazon S3 ストレージにバックアップする、セキュアなクラウドネイティブサービスです。SaaS Backup を使用すると、脅威や予想外の削除からデータを保護できます。
+
+image:Overview.gif["SaaS Backup for Salesforce のグラフィカルな概要を示します。"]注： SaaS Backup for Salesforce のプライベートプレビューから一般的な製品の提供状況にアップグレードしても、プライベートプレビューデータは保持されません。
+
+SaaS Backup for Microsoft Office 365 に関心がある方は、こちらのドキュメントをご覧ください link:https://docs.netapp.com/us-en/saasbackupO365/["こちらをご覧ください"]。

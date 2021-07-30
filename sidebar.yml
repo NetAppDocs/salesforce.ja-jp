@@ -1,0 +1,90 @@
+---
+entries:
+- title: NetApp SaaS Backup for Salesforce のドキュメント
+  url: "/index.html"
+- title: リリースノート
+  entries:
+  - title: 新機能
+    url: "/reference_new_salesforce.html"
+  - title: 既知の問題および制限
+    url: "/concept_kpls.html"
+- title: 概要
+  url: "/concept_overview.html"
+- title: はじめに
+  entries:
+  - title: 無料トライアルを開始する
+    entries:
+    - title: ワークフロー
+      url: "/concept_free_trial_workflow.html"
+    - title: 無償トライアルの制限
+      url: "/reference_free_trial_restrictions.html"
+    - title: 無償トライアルアクティベーションコードを登録しています
+      url: "/task_registering_free_trial_activation_code.html"
+    - title: Salesforce の無料開発者エディションアカウントにサインアップします
+      url: "/task_signing_up_free_developer.html"
+    - title: Salesforce の無料サンドボックスアカウントにサインアップします
+      url: "/task_signing_up_free_sandbox.html"
+    - title: Salesforce システム管理者アカウントを作成する
+      url: "/task_creating_system_admin.html"
+    - title: BYOS オプションについて収集する情報
+      url: "/task_gather_information_byos.html"
+    - title: SaaS Backup for Salesforce の無償トライアルに登録してください
+      url: "/task_signing_up_free_trial.html"
+    - title: Salesforce サービスを設定します
+      url: "/task_configuring_salesforce_service.html"
+    - title: 新しいプロダクションまたはサンドボックスインスタンスの追加
+      url: "/task_adding_new_instance.html"
+    - title: 最初のバックアップのスケジュール設定
+      url: "/scheduling_first_backup.html"
+    - title: 即時バックアップを実行する
+      url: "/task_performing_immediate_backup.html"
+    - title: 無償トライアルからアップグレードしています
+      url: "/task_upgrading_from_trial.html"
+  - title: 有料購読の開始
+    entries:
+    - title: ワークフロー
+      url: "/concept_paid_subscription_workflow.html"
+    - title: BYOS オプションについて収集する情報
+      url: "/task_gather_information_byos.html"
+    - title: Salesforce システム管理者アカウントを作成する
+      url: "/task_creating_system_admin.html"
+    - title: SaaS Backup for Salesforce の有料サブスクリプションへの登録
+      url: "/task_signing_up_paid.html"
+    - title: 即時バックアップを実行する
+      url: "/task_performing_immediate_backup.html"
+- title: SaaS Backup for Salesforce の管理
+  entries:
+  - title: バックアップポリシー
+    url: "/reference_backup_policies.html"
+  - title: 即時バックアップを実行する
+    url: "/task_performing_immediate_backup.html"
+  - title: メタデータバックアップの有効化と無効化
+    url: "/task_enable_disable_metadata_backups.html"
+  - title: データを復元しています
+    url: "/task_managing_restores.html"
+  - title: バックアップの違いを比較およびリストアする
+    url: "/task_comparing_restoring.html"
+  - title: データとメタデータをパージしています
+    url: "/task_purging_data_&_metadata.html"
+  - title: 再認証中です
+    url: "/task_reauthenticating.html"
+  - title: ジョブをキャンセルしています
+    url: "/task_canceling_job.html"
+- title: データを表示する
+  entries:
+  - title: ジョブ履歴を表示します
+    url: "/task_viewing_job_history.html"
+  - title: アクティビティログの表示
+    url: "/task_viewing_activity_log.html"
+  - title: アクティビティログのダウンロード
+    url: "/task_downloading_activity_log.html"
+  - title: エクスポートデータをダウンロードしています
+    url: "/task_downloading_export_data.html"
+  - title: バックアップレコードを表示しています
+    url: "/task_viewing_backup_records.html"
+- title: フィードバックを提供する
+  url: "/task_providing_feedback.html"
+- title: ヘルプを参照したり、詳細情報を参照したりするには
+  url: "/concept_get_help_find_info.html"
+- title: 法的通知
+  url: "/reference_legal_notices.html"

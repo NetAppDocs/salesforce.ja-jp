@@ -1,0 +1,37 @@
+---
+sidebar: sidebar 
+permalink: task_viewing_backup_records.html 
+keywords: netapp, saas backup, salesforce, viewing, backup, records, count, summary 
+summary: SaaS Backup for Salesforce では、 SaaS Backup for Salesforce のバックアップレコード数を確認できます。 
+---
+= バックアップレコードを表示しています
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+SaaS Backup for Salesforce では、バックアップレコードの数を確認できます。
+
+最初のフルバックアップでは、組織レベルのバックアップレコードの総数が表示されます。最初のバックアップのあとに、作成、更新、および削除されたレコードの総数を * Backup summary * で確認できます。
+
+.手順
+. ダッシュボードで、保護されているインスタンス（本番またはサンドボックス）の数をクリックします。
+. バックアップの概要 * の下の * 表示 * をクリックします。
++
+image:click_view_backup_summary.png["バックアップの概要を表示します"]
+
+. 作成および削除されたレコードの数と、テーブル内のすべてのレコード変更のレコード数を表示します。
++
+image:record_count.png["バックアップレコード数"]
+
++
+** * オブジェクト名 * - 組織内のすべてのオブジェクトを含みます。
+** * Created * - 作成および更新されたすべてのレコード。
+** * Deleted * - 削除されたすべてのレコード。
+** * レコード数 * - オブジェクトのバックアップ変更の合計数。
+
+
+

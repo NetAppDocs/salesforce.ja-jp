@@ -1,0 +1,29 @@
+---
+sidebar: sidebar 
+permalink: task_canceling_job.html 
+keywords: netapp, saas backup, salesforce, canceling, jobs, backup, restore 
+summary: バックアップまたはリストアをすぐにキャンセルすることができます。スケジュールされたバックアップをキャンセルすることはできません。 
+---
+= ジョブをキャンセルしています
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+バックアップまたはリストアをすぐにキャンセルすることができます。スケジュールされたバックアップをキャンセルすることはできません。
+
+
+toc::[]
+.手順
+. 左側のナビゲーションペインで [* ジョブ ] をクリックします。
+. 「最近実行したジョブ」で、キャンセルするジョブを探します。
+. [ キャンセル（ Cancel ） ] をクリックします。
+

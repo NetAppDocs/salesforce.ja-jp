@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: reference_free_trial_restrictions.html 
+keywords: netapp, saas backup, salesforce, free, trial, restrictions, instance, backups 
+summary: SaaS Backup for Salesforce の無償トライアルの利用には、制限事項があります。 
+---
+= 無償トライアルの制限
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+無料トライアルアカウントには、次の制限事項が適用されます。
+
+* 最大 1 つの本番インスタンス。
+* 最大 1 つのサンドボックスインスタンス。
+* 1 日に最大 3 つの即時バックアップを作成できます。
+* 最初の 30 日間だけバックアップを自動化。
+* 無償トライアル終了後の 15 日間の猶予期間中は、スケジュールされたバックアップは実行できません。
+

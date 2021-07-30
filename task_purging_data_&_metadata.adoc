@@ -1,0 +1,47 @@
+---
+sidebar: sidebar 
+permalink: task_purging_data_&_metadata.html 
+keywords: netapp, saas backup, salesforce, sandbox, production, instance, purge, purging, purging data, metadata, retention, metadata retention, retain and purge, show purged list 
+summary: Salesforce 組織からデータを消去できます。 
+---
+= データとメタデータをパージしています
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Salesforce 組織からデータを消去できます。組織レベルでのデータの消去は、 * アカウント設定 * で管理されます。
+
+メタデータの保持とパージは、 SaaS Backup for Salesforce によって自動的に管理されます。メタデータは 90 日間保持されます。90 日が経過すると、メタデータはパージされます。
+
+
+
+== データをパージする
+
+未使用の Salesforce 組織など、特定の組織からデータを消去するオプションは常にあります。
+
+データをパージして本番インスタンスまたはサンドボックスインスタンスを更新できます。
+
+別の本番インスタンスまたはサンドボックスインスタンスを追加することもできます。そのためには、本番インスタンスまたはサンドボックスインスタンスをパージする必要があります。
+
+.手順
+. をクリックします image:icon_gear.gif["歯車アイコン"] をクリックします image:account_settings.gif["アカウント設定"]。
+. [* Retain and Purge] をクリックします。
+. 「 * Retain and Purge * 」で、「 * Purge Data * 」までスクロールします。
+. [ プロバイダのタイプ ] と [ サービス名 ] を選択します。
+. 組織 ID を検索または選択します。
+. [ 保存（ Save ） ] をクリックします。パージを確認またはキャンセルするためのメッセージが表示されます。
+. 「 * はい * 」をクリックしてパージを確定します。[ はい ] をクリックすると ' パージされたデータを最大 7 日間リカバリできます
+. ［ * パージされたリストを表示 * ］ をクリックして、スケジュールされたパージのリストを表示します。
++
+image:purged_list_example.gif["パージされたリストの例"]
+
+

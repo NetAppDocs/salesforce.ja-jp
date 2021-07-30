@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: reference_backup_policies.html 
+keywords: netapp, saas backup, salesforce, managing, backups, backup, policies, tier, tiers 
+summary: SaaS Backup for Salesforce を使用してデータをバックアップできます。 
+---
+= バックアップポリシー
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+SaaS Backup for Salesforce には、事前定義された 3 つのバックアップポリシー階層があります。これらのポリシー階層はバックアップの頻度とデータ保持期間によって異なります。本番インスタンスは、階層 1 ポリシーでのみ保護できます。サンドボックスインスタンスは、階層 2 および階層 3 のポリシーで保護できます。
+
+「アクティブ」ステータスのバックアップポリシーは、バックアップ用に割り当てられた項目のポリシーです。ステータスが「非アクティブ」のバックアップポリシーには、バックアップ対象として割り当てられた項目がありません。
+
+|===
+| バックアップポリシー | バックアップ頻度 | デフォルトのデータ保持期間 | 保護に利用できます 
+
+
+| ティア 1 | 12 時間に 1 回 | 3 年 | 本番インスタンス 
+
+
+| ティア 2 | 18 時間に 1 回 | 2 年 | サンドボックスインスタンス 
+
+
+| ティア 3 | 24 時間に 1 回 | 2 年 | サンドボックスインスタンス 
+
+
+| 保護なし | バックアップされていません | バックアップされていません | 本番インスタンスとサンドボックスインスタンス 
+|===

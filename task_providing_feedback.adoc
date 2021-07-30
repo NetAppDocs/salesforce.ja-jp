@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: task_providing_feedback.html 
+keywords: netapp, saas backup, salesforce, feedback, questions 
+summary: ご意見をお寄せください。 
+---
+= フィードバックを提供する
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+NetApp SaaS Backup for Salesforce 製品に関するフィードバックは、ネットアップの営業支援にお役立てください。SaaS Backup の内部からフィードバックを送信できます。
+
+
+toc::[]
+.手順
+. をクリックします image:support.png[""] をクリックします。
+. [ * フィードバック * ] を選択します。
+. 簡単なフィードバックアンケートにご協力ください。
+. [Submit （送信） ] をクリックします。
+
+
+GA/FCS 版の製品マニュアルの初回リリース時や既存マニュアルへの重要な変更があった場合のご案内を希望される場合は、 Twitter アカウント @NetAppDoc をフォローしてください。

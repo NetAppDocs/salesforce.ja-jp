@@ -1,0 +1,92 @@
+---
+sidebar: sidebar 
+permalink: task_signing_up_paid.html 
+keywords: netapp, saas backup, salesforce, getting started, signing up, sso, paid, subscription 
+summary: SaaS Backup for Salesforce の有料サブスクリプションを開始するには、アクティベーションコードを取得し、 Salesforce または NetApp SSO でサインアップします。 
+---
+= SaaS Backup for Salesforce の有料サブスクリプションへの登録
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+SaaS Backup with Salesforce の有料サブスクリプションに登録するか、ネットアップの SSO アカウントで登録できます。
+
+サインアッププロセスを完了するには、 SaaS Backup ライセンスを購入したときにシリアル番号が提供されているか、無償トライアル版にサインアップしたときに提供されたアクティベーションコードが必要です。
+
+
+
+== Salesforce を使用して SaaS Backup にサインアップする
+
+.手順
+. Web ブラウザに SaaS Backup の URL を入力します。https://saasbackup.netapp.com[]
+. ページの下部にある [*Signup* （サインアップ） ] をクリックします。
+. 地域を選択します。
+. 利用規約を読み、同意します。
+. Salesforce をクリックします。
++
+image:sign_up_for_salesforce_button.jpg[""]
+
+. システム管理者権限を持つ Salesforce アカウントのユーザー名とパスワードを入力し、 * ログイン * をクリックします。
+. [*Allow*] をクリックして、 Salesforce 組織に SaaS バックアップアクセスを許可します。
++
+image:allow_access.jpg[""]
+
+. 登録フォームに必要事項を入力し、 ［ * サインアップ * ］ をクリックします。
+. [*Salesforce] をクリックします。
++
+有料サブスクリプションをお持ちの場合は、 ［ * ライセンス済み * ］ をクリックします。ユーザー名、パスワード、ライセンスのシリアル番号を入力し、 [ サブスクリプションの検証 ] をクリックします。
+
+. バックアップストレージオプションを選択します。
++
+BYOS （独自のストレージ）や SaaS Backup のストレージを利用することもできます。SaaS Backup でサポートされるのは Amazon S3 のみです。
+
+. SaaS Backup のストレージを選択した場合は、地域を選択してください。
++
+BYOS オプションを選択した場合は、要求された情報を入力し、 * 接続テスト * をクリックします。
+
+. 「 * 次へ * 」をクリックします。
+. [ 保存（ Save ） ] をクリックします。
+
+
+
+
+== NetApp SSO を使用した SaaS Backup への登録
+
+.手順
+. Web ブラウザに SaaS Backup の URL を入力します。https://saasbackup.netapp.com[]
+. エンドユーザライセンス契約に同意します。
+. ページの下部にある [*Signup* （サインアップ） ] をクリックします。
+. NetApp SSO をクリックします。
++
+image:sign_up_with_netapp_sso.jpg[""]
+
+. ネットアップの SSO とパスワードを入力し、 * login * をクリックします。
+. [*Allow*] をクリックして、 Salesforce 組織に SaaS バックアップアクセスを許可します。
++
+image:allow_access.jpg[""]
+
+. 登録フォームに必要事項を入力し、 ［ * サインアップ * ］ をクリックします。
+. [*Salesforce] をクリックします。
++
+有料サブスクリプションをお持ちの場合は、 ［ * ライセンス済み * ］ をクリックします。ユーザー名、パスワード、ライセンスのシリアル番号を入力し、 [ サブスクリプションの検証 ] をクリックします
+
+. バックアップストレージオプションを選択します。
++
+BYOS （独自のストレージ）や SaaS Backup のストレージを利用することもできます。SaaS Backup でサポートされるのは Amazon S3 のみです。
+
+. SaaS Backup のストレージを選択した場合は、地域を選択してください。
++
+BYOS オプションを選択した場合は、要求された情報を入力し、 * 接続テスト * をクリックします。
+
+. 「 * 次へ * 」をクリックします。
+. [ 保存（ Save ） ] をクリックします。
+

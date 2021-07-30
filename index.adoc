@@ -1,0 +1,42 @@
+---
+sidebar: sidebar 
+permalink: index.html 
+summary: NetApp SaaS Backup for Salesforce のドキュメントポータルへようこそ。 
+---
+= NetApp SaaS Backup for Salesforce のドキュメント
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:keywords: ontap cloud, amazon web services, saas backup, salesforce, saas restore, documentation, help, sign up
+
+
+NetApp SaaS Backup は、 Salesforce データを Amazon S3 ストレージにバックアップする、セキュアなクラウドネイティブサービスです。SaaS Backup を使用すると、脅威や予想外の削除からデータを保護できます。
+
+
+
+== はじめに
+
+* link:concept_free_trial_workflow.html["無料トライアルを開始する"]
+* link:concept_paid_subscription_workflow.html["有料購読の開始"]
+* link:task_configuring_salesforce_service.html["Salesforce サービスを設定しています"]
+* link:task_adding_new_instance.html["本番サンドボックスインスタンスの追加"]
+
+
+
+
+== バックアップの管理およびデータのリストア
+
+* link:task_managing_backups.html["データをバックアップしています"]
+* link:task_managing_restores.html["データを復元しています"]
+
+
+
+
+== フィードバックを提供するか、ヘルプを入手するか、詳細を確認します
+
+* link:task_providing_feedback.html["フィードバックを提供する"]
+* link:concept_get_help_find_info.html["ヘルプを参照したり、詳細情報を参照したりするには"]
+* link:https://docs.netapp.com/us-en/saasbackupO365/["SaaS Backup for Microsoft Office 365 のドキュメント"]
+

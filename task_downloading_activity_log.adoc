@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: task_downloading_activity_log.html 
+keywords: netapp, saas backup, salesforce, viewing, downloading, activity, log 
+summary: アクティビティログは .csv ファイルにダウンロードできます。 
+---
+= アクティビティログのダウンロード
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+アクティビティログは .csv ファイルにダウンロードできます。
+
+.手順
+. 左ペインのナビゲーションで、 * Reporting * をクリックします。image:reporting.jpg[""]
+. [* アクティビティログ * ] をクリックします。
+. [ * ダウンロード ] をクリックします。image:download.jpg[""]アクティビティログは .csv ファイルとしてダウンロードされます。
+

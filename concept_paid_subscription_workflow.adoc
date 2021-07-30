@@ -1,0 +1,34 @@
+---
+sidebar: sidebar 
+permalink: concept_paid_subscription_workflow.html 
+keywords: netapp, saas backup, salesforce, getting, started, workflow, paid, subscription 
+summary: SaaS Backup for Salesforce の有料サブスクリプションアカウントを使用するには、アクティブ化コードを用意し、 Salesforce またはネットアップ SSO で登録する必要があります。 
+---
+= SaaS Backup for Salesforce の有料サブスクリプションを開始するためのワークフロー
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+SaaS Backup for Salesforce の有料サブスクリプションを開始するには、次の手順を実行する必要があります。
+
+.手順
+. アクティベーションコードを用意します。
+. SaaS Backup が提供する Amazon S3 ストレージを使用するか、 BYOS として Bring Your Own Storage （ BYOS ）オプションを使用するかを決定し、必要に応じて link:task_gather_information_byos.html["ストレージに関する情報を収集します"]。
+. をまだ持っていない場合 link:task_creating_system_admin.html["Salesforce システム管理者アカウント"]をクリックして作成します。
+. に登録します link:task_signing_up_paid.html["SaaS Backup for Salesforce の有料サブスクリプション"] Salesforce アカウントまたはネットアップの SSO アカウントを使用している場合。
+. link:task_configuring_salesforce_service.html["Salesforce サービスを設定します"]。
+. link:task_adding_new_instance.html["本番インスタンスまたはサンドボックスインスタンスを追加します"]。
+. link:scheduling_first_backup.html["最初のバックアップのスケジュールを設定します"]。
+. 必要に応じて、 link:task_performing_immediate_backup.html["データをすぐにバックアップ"]。
+
+
+image:workflow_paid.gif["有料サブスクリプションのサインアッププロセスのワークフロー"]
