@@ -35,7 +35,7 @@ image:org_level_restore_metadata_option_cropped.png["組織レベルのメタデ
 きめ細かなメタデータのリストア
 
 +
-image:restore_options_export&restore_metadata.png["メタデータオプションのエクスポートとリストア"]
+image:restore_options_export-restore_metadata.png["メタデータオプションのエクスポートとリストア"]
 
 +
 link:task_managing_restores.html["データを復元しています"]

@@ -28,7 +28,7 @@ NetApp SaaS Backup は、 Salesforce データを Amazon S3 ストレージに�
 
 == バックアップの管理およびデータのリストア
 
-* link:task_managing_backups.html["データをバックアップしています"]
+* link:task_performing_immediate_backup.html["即時バックアップを実行する"]
 * link:task_managing_restores.html["データを復元しています"]
 
 

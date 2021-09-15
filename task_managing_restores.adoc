@@ -135,7 +135,7 @@ NOTE: エクスポートメタデータジョブは、完了後 30 日間使用�
 . [* リストア ] をクリックします。
 . リストアオプションを選択します。
 +
-image:restore_options_export&restore_metadata.png["メタデータのリストアオプションをエクスポートおよびリストアする"]
+image:restore_options_export-restore_metadata.png["メタデータのリストアオプションをエクスポートおよびリストアする"]
 
 +
 .. メタデータをエクスポートするには、 * メタデータのエクスポート * を選択します。zip ファイルが作成されます。

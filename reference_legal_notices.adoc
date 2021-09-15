@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: reference_legal_notices.html 
-keywords: copyrights, notice, trademarks, patents, privacy, open source 
+keywords: copyrights, notice, trademarks, patents, privacy 
 summary: 著作権に関する声明、商標、特許などにアクセスできます。 
 ---
 = 法的通知
@@ -47,11 +47,3 @@ https://www.netapp.com/us/media/patents-page.pdf[]
 == プライバシーポリシー
 
 https://www.netapp.com/us/legal/privacypolicy/index.aspx[]
-
-
-
-== オープンソース
-
-通知ファイルには、ネットアップソフトウェアで使用されるサードパーティの著作権およびライセンスに関する情報が記載されています。
-
-https://www.netapp.com/us/media/cloud-control-notice-file.pdf["SaaS Backup に関する注意事項"^]
