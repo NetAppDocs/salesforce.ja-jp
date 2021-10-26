@@ -1,4 +1,12 @@
 ---
+settings:
+  name: SaaS Backup For Salesforce
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: true
+    langs: ja-jp,us-en,zh-cn
 sidebar:
   entries:
   - title: NetApp SaaS Backup for Salesforce のドキュメント
