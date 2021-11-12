@@ -47,3 +47,11 @@ https://www.netapp.com/us/media/patents-page.pdf[]
 == プライバシーポリシー
 
 https://www.netapp.com/us/legal/privacypolicy/index.aspx[]
+
+
+
+== オープンソース
+
+通知ファイルには、ネットアップソフトウェアで使用されるサードパーティの著作権およびライセンスに関する情報が記載されています。
+
+link:media/SaaS_Backup_notice.pdf["SaaS Backup に関する注意事項"^]

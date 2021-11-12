@@ -499,4 +499,8 @@
   <block id="26d55f3915c82135ff8ac17c10c2ded7" category="paragraph"><block ref="26d55f3915c82135ff8ac17c10c2ded7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6fb2b97744d045afd98376f018b9f01d" category="list-text"><block ref="6fb2b97744d045afd98376f018b9f01d" category="inline-link-macro-rx"></block></block>
   <block id="d8b48bd6bc0099aa6f8730407bf10ba1" category="paragraph"><block ref="d8b48bd6bc0099aa6f8730407bf10ba1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">オープンソース</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知ファイルには、ネットアップソフトウェアで使用されるサードパーティの著作権およびライセンスに関する情報が記載されています。</block>
+  <block id="af482b62e5f593026c0e1f3b25e33b22" category="inline-link-macro">SaaS Backup に関する注意事項</block>
+  <block id="6adebe2fbffbd6dcb646696cd1bfc9ee" category="paragraph"><block ref="6adebe2fbffbd6dcb646696cd1bfc9ee" category="inline-link-macro-rx"></block></block>
 </blocks>
