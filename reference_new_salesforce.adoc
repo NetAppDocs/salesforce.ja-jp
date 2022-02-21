@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: reference_new_salesforce.html 
-keywords: what's new, features, new, release notes, enhancements 
+keywords: 'what"s new, features, new, release notes, enhancements' 
 summary: SaaS Backup for Salesforce では、新機能、拡張機能、バグ修正を提供する新しいリリースが定期的に導入されています。 
 ---
 = 新機能とアップデート
