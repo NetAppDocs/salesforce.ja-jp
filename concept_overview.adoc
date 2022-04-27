@@ -7,6 +7,7 @@ summary: NetApp SaaS Backup for Salesforce は、 Salesforce データを Amazon
 = NetApp SaaS Backup for Salesforce の概要
 :toc: macro
 :hardbreaks:
+:allow-uri-read: 
 :toc: 
 :nofooter: 
 :icons: font

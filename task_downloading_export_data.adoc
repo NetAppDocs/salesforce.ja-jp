@@ -8,6 +8,7 @@ summary: データにエクスポート機能を使用して、添付ファイ�
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

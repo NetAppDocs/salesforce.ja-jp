@@ -8,6 +8,7 @@ summary: Salesforce のメタデータバックアップを有効または無効
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

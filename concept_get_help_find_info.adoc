@@ -7,6 +7,7 @@ summary: NetApp SaaS Backup for Salesforce のコミュニティフォーラム�
 = ヘルプを参照したり、詳細情報を参照したりするには
 :toc: macro
 :hardbreaks:
+:allow-uri-read: 
 :toc: 
 :nofooter: 
 :icons: font

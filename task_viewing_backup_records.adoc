@@ -6,6 +6,7 @@ summary: SaaS Backup for Salesforce では、 SaaS Backup for Salesforce のバ�
 ---
 = バックアップレコードを表示しています
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

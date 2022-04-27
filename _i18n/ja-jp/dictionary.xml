@@ -1,44 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
-  <block id="ee2ab6f30ba276b415cb81b7cbb7a8f6" category="summary">SaaS Backup for Salesforce の無償トライアルの利用には、制限事項があります。</block>
-  <block id="30b2123030b8a0f2633415ae646de89b" category="doc">無償トライアルの制限</block>
-  <block id="9e2588b7501cf6b0c88398471f593e95" category="paragraph">無料トライアルアカウントには、次の制限事項が適用されます。</block>
-  <block id="267f90fe8f7da740818fb252f8011476" category="list-text">最大 1 つの本番インスタンス。</block>
-  <block id="3e3a4633cb1c7ae55d51cfeb67c6bf1b" category="list-text">最大 1 つのサンドボックスインスタンス。</block>
-  <block id="0c630adb5da919cc0d488065eb4d143d" category="list-text">1 日に最大 3 つの即時バックアップを作成できます。</block>
-  <block id="e5a3f64eb2def107afdd1de4d946b7fc" category="list-text">最初の 30 日間だけバックアップを自動化。</block>
-  <block id="a427716f531ce5996635c53e013e79d2" category="list-text">無償トライアル終了後の 15 日間の猶予期間中は、スケジュールされたバックアップは実行できません。</block>
-  <block id="185ccdbd0f3db3c982020e50d34cbd7a" category="summary">SaaS Backup for Salesforce の有料サブスクリプションを開始するには、アクティベーションコードを取得し、 Salesforce または NetApp SSO でサインアップします。</block>
-  <block id="02831244155860da646f7e87b5739147" category="doc">SaaS Backup for Salesforce の有料サブスクリプションへの登録</block>
-  <block id="abd96cae778dd0203223196c8d033bb3" category="paragraph">SaaS Backup with Salesforce の有料サブスクリプションに登録するか、ネットアップの SSO アカウントで登録できます。</block>
-  <block id="7f8e14b8d8e09c584da676a647feecd9" category="paragraph">サインアッププロセスを完了するには、 SaaS Backup ライセンスを購入したときにシリアル番号が提供されているか、無償トライアル版にサインアップしたときに提供されたアクティベーションコードが必要です。</block>
-  <block id="7f7ffed00efb82169586a2733bed846a" category="section-title">Salesforce を使用して SaaS Backup にサインアップする</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">手順</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-link"></block>
-  <block id="a52cb76668ff34d00f15857b1fdc199d" category="list-text">Web ブラウザに SaaS Backup の URL を入力します。<block ref="69b8c2567294d7944fbc4c95e2c3c422" category="inline-link-rx"></block></block>
-  <block id="d2223e7c5f1c8ed548d675adc48059fc" category="list-text">ページの下部にある [*Signup* （サインアップ） ] をクリックします。</block>
-  <block id="b0a687660e1c628c1726a722e3ed796b" category="list-text">地域を選択します。</block>
-  <block id="c8e5f561672616fbf087df05fe4d7bae" category="list-text">利用規約を読み、同意します。</block>
-  <block id="4a3d3e25952e8507a1ea71bece0afde3" category="list-text">Salesforce をクリックします。</block>
-  <block id="c5c6ef1d20c02624c11f580a59c168ed" category="paragraph"><block ref="c5c6ef1d20c02624c11f580a59c168ed" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="2ef0ef4063f76735b22e8d575f75b3d7" category="list-text">システム管理者権限を持つ Salesforce アカウントのユーザー名とパスワードを入力し、 * ログイン * をクリックします。</block>
-  <block id="bf8175c0cca18a886d4f88c70f1e45e8" category="list-text">[*Allow*] をクリックして、 Salesforce 組織に SaaS バックアップアクセスを許可します。</block>
-  <block id="865070c807b0759ce6e3e5ddcb6d6f79" category="paragraph"><block ref="865070c807b0759ce6e3e5ddcb6d6f79" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a2895c972e099be833cd683aa3dd1daf" category="list-text">登録フォームに必要事項を入力し、 ［ * サインアップ * ］ をクリックします。</block>
-  <block id="82e595b350d13ee64d9e3e6a5883ec49" category="list-text">[*Salesforce] をクリックします。</block>
-  <block id="c493625c5afcca0c5f4d8140f2667daa" category="paragraph">有料サブスクリプションをお持ちの場合は、 ［ * ライセンス済み * ］ をクリックします。ユーザー名、パスワード、ライセンスのシリアル番号を入力し、 [ サブスクリプションの検証 ] をクリックします。</block>
-  <block id="278cd16c1d88b9f641463ff754912c75" category="list-text">バックアップストレージオプションを選択します。</block>
-  <block id="5a7de7758f68905e9b6bd4d7fab35b85" category="paragraph">BYOS （独自のストレージ）や SaaS Backup のストレージを利用することもできます。SaaS Backup でサポートされるのは Amazon S3 のみです。</block>
-  <block id="b9bd8777164d8d22a8f236088e6aa9c6" category="list-text">SaaS Backup のストレージを選択した場合は、地域を選択してください。</block>
-  <block id="e1cc8c309354827b9ce96a7d94b68480" category="paragraph">BYOS オプションを選択した場合は、要求された情報を入力し、 * 接続テスト * をクリックします。</block>
-  <block id="5a378b18f7bf0c4cabc6c655cd2f535e" category="list-text">「 * 次へ * 」をクリックします。</block>
-  <block id="4cc186df234138a57b2e8c5d8e5f7f8d" category="list-text">[ 保存（ Save ） ] をクリックします。</block>
-  <block id="33251830092a8dc9bff4fd325e03cf2f" category="section-title">NetApp SSO を使用した SaaS Backup への登録</block>
-  <block id="06de5e18df9b68ad205bdd89c754be1b" category="list-text">エンドユーザライセンス契約に同意します。</block>
-  <block id="8a6335abd9a4b98e311c95e3d150fde2" category="list-text">NetApp SSO をクリックします。</block>
-  <block id="9e79844d296a50ae951d42d87cf67e3b" category="paragraph"><block ref="9e79844d296a50ae951d42d87cf67e3b" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="d31b507eddf1e6c358bc29b44c2efe48" category="list-text">ネットアップの SSO とパスワードを入力し、 * login * をクリックします。</block>
-  <block id="77dbdacc64bcf150919a0f6f6100d79f" category="paragraph">有料サブスクリプションをお持ちの場合は、 ［ * ライセンス済み * ］ をクリックします。ユーザー名、パスワード、ライセンスのシリアル番号を入力し、 [ サブスクリプションの検証 ] をクリックします</block>
   <block id="3c94b1350efc6463906e845a2ff7d491" category="summary">Salesforce 組織からデータを消去できます。</block>
   <block id="f63e44f6b7c0301b6b1aee23f1f33f4c" category="doc">データとメタデータをパージしています</block>
   <block id="ba148551a0c83efdb34b7d72ad2e3c41" category="paragraph">Salesforce 組織からデータを消去できます。組織レベルでのデータの消去は、 * アカウント設定 * で管理されます。</block>
@@ -80,24 +43,9 @@
   <block id="ab254afc26016555fc58a2fbf20c0c73" category="cell">保護なし</block>
   <block id="32771279cda84268b560695103314e6a" category="cell">バックアップされていません</block>
   <block id="40350e4eafc364700da8aea489f2ef8d" category="cell">本番インスタンスとサンドボックスインスタンス</block>
-  <block id="526dd7dee7bf995d4ca1ca3a1fb74a9b" category="summary">SaaS Backup for Salesforce に登録したら、 Salesforce サービスを設定する必要があります。</block>
-  <block id="80962e03c06dfdff9a31a796c47d212f" category="doc">Salesforce サービスを設定します</block>
-  <block id="fc7cc31d6d7b9db0b473d8faa623dbba" category="list-text">左ペインのナビゲーションで、 * サービス * をクリックします<block ref="5ba64ff8e229cabdd4607f87216788c3" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="8455d8a5e713218c9f2ce93d3e7311a6" category="list-text">をクリックします <block ref="95bc20c61d9cbc7f39ac68f838698eaf" category="inline-image-macro-rx" type="image"></block> サービスを追加します。</block>
-  <block id="e0aa3b79f010ebaddc155e727879dc26" category="list-text">[*Salesforce] を選択します。<block ref="707e357a2568c75fffde97647b56f9f0" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="58382df9c375e0d24e8ddc67cd629410" category="list-text">サブスクリプションタイプを選択します。</block>
-  <block id="860d00e1838dbba99da994be82eb9b69" category="list-text">アクティベーションコードを入力します。</block>
-  <block id="e2908bf7a4f9e310d6e8fe53176293f7" category="list-text">バックアップ先を選択します。</block>
-  <block id="f536310d29a9e532c9dc16928c227787" category="summary">無償トライアルからライセンス版の SaaS Backup にアップグレードできます。</block>
-  <block id="00e94d3b24ba81ab2dfa5ff8ebd11a0a" category="doc">無償トライアルからアップグレードしています</block>
-  <block id="b2c9b80f91ef6a27153a7ba95e113135" category="paragraph">無償トライアルからアップグレードするには、有料サブスクリプションで発行されたシリアル番号が必要です。</block>
   <block id="728f9cb24ecfd35a7e315f00f6a55628" category="inline-image-macro">設定アイコン</block>
   <block id="8d499e5c1f59d0ec55de50137566c0b0" category="list-text">ダッシュボードの左上で、をクリックします <block ref="0f7cd87e94c220fddeb0cfa6fca9f3a2" category="inline-image-macro-rx" type="image"></block>。</block>
   <block id="173eb3c4fa5f55eb6a003a37ddb9a241" category="list-text">[ サービス設定 *] で、 [*Salesforce] を選択します。</block>
-  <block id="f0c5d0c5dfbd44392b4c70905f6189a0" category="list-text">[ サブスクリプションの詳細 * ] の横にある [ * 更新 * ] をクリックします。</block>
-  <block id="1d3d12fe8787f9c5ab1de41a1fead468" category="list-text">「 * NetApp License * 」を選択します。</block>
-  <block id="1d4fa2a966dfe387f521922fb31ed53a" category="list-text">ライセンスのユーザ名、パスワード、およびシリアル番号を入力します。</block>
-  <block id="932f45b6f6a691194389c5b2c0bafb38" category="list-text">[* サブスクリプションの検証 * ] をクリックします。ライセンス情報の確認が表示されます。</block>
   <block id="907ae2ca5325729883590ff7c02d41c5" category="doc">即時バックアップを実行する</block>
   <block id="ec282453c4e7aeb8e9175645fd052dde" category="paragraph">データ保護に必要と判断した場合は、本番インスタンスまたはサンドボックスインスタンスのバックアップをすぐに実行できます。</block>
   <block id="0ac04b08cb1d1c1bbcd624736d7a4a94" category="admonition">SaaS Backup for Salesforce の試用版では、 1 日に 3 回の即時バックアップしか実行できません。</block>
@@ -141,50 +89,7 @@
   <block id="789a5df7406fcd45b3b8c623e69ee6b6" category="list-text">「 * Metadata Backup * 」をクリックして機能をオフにします。</block>
   <block id="8654b0089318be3208f78ed1708315ab" category="inline-image-macro">メタデータのバックアップを無効にします</block>
   <block id="ce4e3b64b2712f7097688a51e5696aa1" category="paragraph"><block ref="ce4e3b64b2712f7097688a51e5696aa1" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="e138c067a01ea5da36c44eabfe317264" category="summary">SaaS Backup for Salesforce の使用を開始するには、 Salesforce システム管理者アカウントを作成するオプションがあります。</block>
-  <block id="b35e4e63f05b27ae0e16407dc4dd95c3" category="doc">Salesforce システム管理者アカウントを作成する</block>
-  <block id="78404b77860e5709b717243d1e5a46bd" category="paragraph">SaaS Backup for Salesforce にサインアップすると、既存の Salesforce システム管理者アカウントを使用するか、新しいアカウントを作成することができます。</block>
-  <block id="4a6dbb2ff650f82af801f71c3efd72c3" category="inline-link-macro">Salesforce の場合</block>
-  <block id="875c4447ae24ff5f2861b12c9fee9288" category="list-text">にログインします <block ref="3160f0f7cb0e8d2f6a8692427bfa3347" category="inline-link-macro-rx"></block> 既存のシステム管理者アカウントを使用します。</block>
-  <block id="8bceea737b04c7239963e73450b0cb11" category="list-text">クラシックな体験に切り替えるには、 [ プロファイルの表示 ] をクリックし、 [*] をクリックして [Salesforce クラシックに切り替える *] をクリックします。これはオプションです。</block>
-  <block id="5674406baa547260c60425cf19e1b2e3" category="list-text">[* Setup * （セットアップ * ） ] タブをクリックします。</block>
-  <block id="78ce0be64f6f5b2b3aaa3552ea93f0a3" category="inline-image-macro">画像は、管理下でのユーザーの検索を示しています</block>
-  <block id="185bc3f8095d766c794bdd41f0125896" category="list-text">[*Administer （管理） ] で [* Manage Users （ユーザーの管理） ] をクリックし、 [* Users （ユーザー） ] をクリックします。<block ref="d2bdc0b6c78349d7bdc1cf7fb2879eb1" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="c9f12f65580038645556889012a30632" category="list-text">[*Users*] の下にある [New User*] をクリックします。</block>
-  <block id="3da88cf6af55d7170501ef78158a7f77" category="list-text">次のガイダンスに従って、必要な情報を入力します。</block>
-  <block id="3f0c6dbd0fb1d54aa515cab304560eb6" category="list-text">* Role * は空のままにしておきます。</block>
-  <block id="cc59714412371c6ad4bdf1cc018918c0" category="list-text">[ ユーザーライセンス *] で、 [*Salesforce] を選択します。</block>
-  <block id="5cd006aaba9277134a4c9ee0b7f60325" category="list-text">「 * プロファイル」で「 * システム管理者 * 」を選択します。</block>
-  <block id="980b3e48a43cbab96540bae26c461c85" category="inline-image-macro">[ 画像表示 ] チェックボックスがオンになっている</block>
-  <block id="a876ffd9eada9d85c69b024f3808b957" category="list-text">次の点を確認します。<block ref="aee30b7e652a64be7ac4e5973b334507" category="inline-image-macro-rx" type="image"></block> マーケティング<block ref="aee30b7e652a64be7ac4e5973b334507" category="inline-image-macro-rx" type="image"></block> オフラインです<block ref="aee30b7e652a64be7ac4e5973b334507" category="inline-image-macro-rx" type="image"></block> サービスクラウド<block ref="aee30b7e652a64be7ac4e5973b334507" category="inline-image-macro-rx" type="image"></block> Salesforce CRM のコンテンツユーザ。</block>
-  <block id="e192a00807793df4687aaeead0585814" category="list-text">[* ユーザー * ] で、新しく作成したアカウントをクリックし、 [ パスワードのリセット * ] をクリックします。</block>
-  <block id="a313b093c8be024aa8c7a06e15b1fab1" category="list-text">メールアカウントに移動して確認し、新しいアカウントを確認します。表示されるリンクから、アカウントのパスワードを作成するように求められます。</block>
-  <block id="29fa51fc5af372f35b8d9c146cdfc61f" category="list-text">にログインします <block ref="3160f0f7cb0e8d2f6a8692427bfa3347" category="inline-link-macro-rx"></block> 新しいアカウントのクレデンシャルを使用してアカウントをアクティブ化します。</block>
-  <block id="0fd1b04f78c2bbd7a16c22c3534f33aa" category="summary">BYOS オプションを選択してデータを保存する場合、サインアップする前にストレージに関する関連情報を収集する必要があります。</block>
-  <block id="499629d844ee9183fabf45477956064c" category="doc">Bring Your Own Storage （ BYOS ）オプションに関する情報を収集します</block>
-  <block id="332d3463dbca106a71bb05f27c89cb3e" category="paragraph">Amazon S3 を使用する場合は、サインアップ前に情報を収集する必要はありません。独自の Amazon S3 バケットを提供している場合は、サインアップの前にストレージに関する次の情報を収集する必要があります。</block>
-  <block id="e3cb65410aa9adfebb4eb1bc8ee22fec" category="list-text">バケット名</block>
-  <block id="f447ac856e7e72435904956e3b15f433" category="list-text">地域</block>
-  <block id="47b84fd1609df93c987377c912e3baf1" category="list-text">アクセスキー</block>
-  <block id="952bf87c967660b7bbd4e1eb08cefc92" category="list-text">シークレットキー</block>
-  <block id="bc44b244e89d78c488fbb50eacd57268" category="summary">SaaS Backup for Salesforce の利用を開始するには、アクティベーションコードを取得して、 Salesforce または NetApp SSO でサインアップします。</block>
-  <block id="d7a9778781c089899877b7fa42954054" category="doc">SaaS Backup for Salesforce の無償試用版へのアクティベーションコードの登録</block>
-  <block id="f470843ae71b7ed6a3bc9a3158c4e09c" category="paragraph">SaaS Backup for Salesforce を使い始めるには、アクティベーションコードを取得してからサインアップする必要があります。営業担当者またはチャネルパートナーからアクティベーションコードを受け取っている可能性があります。有効化されていない場合は、無償トライアルにサインアップすることでアクティベーションコードを入手できます。</block>
   <block id="6c92285fa6d3e827b198d120ea3ac674" category="inline-link">こちらをご覧ください</block>
-  <block id="7a9fa326ac68f770af3f02cb8b0660c8" category="list-text">をクリックします<block ref="913dc416f3dd95b8b5cde31c5a411c18" category="inline-link-rx"></block> をクリックして、 SaaS Backup for Salesforce の無償トライアル URL にアクセスしてください。</block>
-  <block id="433b97efa07fda311a07a4b9be9f9713" category="list-text">必要な登録情報を入力し、 * Submit * をクリックします。</block>
-  <block id="dde8701faa7baa31ea63a4bd8b5abae2" category="paragraph">フォームを送信すると、無料試用版のアクティベーションコードが記載された電子メールが届きます。Salesforce で SaaS Backup にサインアップする際に、アクティベーションコードが必要になります。</block>
-  <block id="71c5c5a94605f4a4155b6089e055bc93" category="summary">SaaS Backup for Salesforce の無償トライアルを開始するには、アクティベーションコードを入手して、 Salesforce または NetApp SSO でサインアップします。</block>
-  <block id="f15c9896c3ef15704890b6a5a219fb97" category="doc">SaaS Backup for Salesforce の無償トライアルに登録してください</block>
-  <block id="03619911de9826065a89270743454efe" category="paragraph">Salesforce またはネットアップの SSO アカウントを使用して、 SaaS Backup に登録できます。</block>
-  <block id="e67ab8afe9b82db3e13dcce42bf6e65d" category="paragraph">サインアッププロセスを完了するには、 SaaS Backup ライセンスを購入したときにアクティベーションコードを提供するか、無料試用版にサインアップしたときに提供されたアクティベーションコードを入手する必要があります。</block>
-  <block id="07c5a06a93547c5a14078818c4745634" category="list-text">試用版ライセンスをお持ちの場合は、 * Preview * をクリックして、アクティベーションコードを入力し、 * Next * をクリックします。</block>
-  <block id="7ba79f88891f59b2fc1f614ebcc1cf9a" category="summary">SaaS Backup for Salesforce を設定したら、新しい本番用インスタンスまたはサンドボックスインスタンスを追加します。</block>
-  <block id="500c53a47475efc0e7d097ccda25de1f" category="doc">新しいプロダクションインスタンスまたはサンドボックスインスタンスの追加</block>
-  <block id="50cc7be43090b8b75bb04c1b2f74c887" category="list-text">プロダクションインスタンスを追加する場合は、 * プロダクションインスタンス * をクリックします。<block ref="ce00dffed0446e4163769bd4d24d0914" category="inline-image-macro-rx" type="image"></block>サンドボックスインスタンスを追加する場合は、 * サンドボックスインスタンス * をクリックします。<block ref="6327247e9a4189d75bc19c6623ed5709" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="ee50cefd1f340cd28bc3d72b8cd168d0" category="list-text">右上にある青いアイコンをクリックします <block ref="95bc20c61d9cbc7f39ac68f838698eaf" category="inline-image-macro-rx" type="image"></block> 新しいインスタンスを追加します。</block>
-  <block id="659886a0a3e8bcb62083c1c45bd44606" category="list-text">[ 組織の追加 *] で、 [ 送信 *] をクリックします。</block>
-  <block id="06da2c1a6887049c8e587b48fadbc5c2" category="list-text">システム管理クレデンシャルを入力してインスタンスを追加します。本番環境用組織は、自動的に階層 1 のバックアップポリシーに追加され、即時バックアップがスケジュールされます。</block>
   <block id="92f856161fa8f81bc4e945d0b7170384" category="summary">データにエクスポート機能を使用して、添付ファイル、結果、および統計情報をダウンロードできます。</block>
   <block id="c41fcd1478e92a3f4218e36f395b11ef" category="doc">エクスポートデータをダウンロードしています</block>
   <block id="f38ac5c423a8fd7fabd1c5456f02ad53" category="paragraph">データはオブジェクトレベルおよび組織レベルでエクスポートできます。エクスポートごとに、以前のバックアップから添付ファイル、結果、統計情報をダウンロードできます。</block>
@@ -253,13 +158,6 @@
   <block id="218a6df2de43ccf996900a6139e11d59" category="list-text">更新されたすべてのレコードを復元するには、「 * Updated * 」を選択します。削除されたレコードをすべて復元するには、「削除済み」を選択します。オプションが使用可能な場合は、両方を選択することもできます。</block>
   <block id="bb033ba9af8ba2a48b881b33c9a548c7" category="list-text">[SUMBIT] をクリックします。</block>
   <block id="0b73755473135196fcafff58d661dea2" category="paragraph">ジョブは上書きされず、関係もなくリストアされます。</block>
-  <block id="235c7ed7d6248cb357348481e1f96b99" category="summary">SaaS Backup for Salesforce の利用を開始するには、無償の開発者向けエディションアカウントに登録する必要があります。</block>
-  <block id="164b7dbee4ee0ca55476f18ec6b1a8cd" category="doc">Salesforce の無料開発者エディションアカウントにサインアップします</block>
-  <block id="07e0507bed42c9d4934e12f7a1f39200" category="paragraph">無料の Salesforce 開発者エディションアカウントを使用すると、 Salesforce と SaaS Backup for Salesforce の最新機能をご確認いただけます。</block>
-  <block id="6c2d9dea13efac128bab23425d95898e" category="list-text">をクリックします <block ref="a604c87a413b0204a2876d6a1439705a" category="inline-link-macro-rx"></block> 無料の Salesforce 開発者エディションアカウントを開始します。</block>
-  <block id="1cb1088bbece8b4b561d233de760ea73" category="list-text">必要な情報を入力し、利用規約に同意して、「 * サインアップ * 」をクリックしてサインアッププロセスを完了します。</block>
-  <block id="2da13b4eae805e2e3dbde15f050b0d85" category="list-text">新しく作成した Salesforce 開発者アカウントでは、 Lightning の体験とクラシックな体験を切り替えることができます。クラシックな体験に切り替えるには、 [ プロファイルの表示 ] をクリックし、 [*] をクリックして [Salesforce クラシックに切り替える *] をクリックします。これはオプションです。</block>
-  <block id="adc9fdc19ca6b7324a9f40c58278a1d0" category="paragraph">注：新しいアカウントには、サンプルのオブジェクトとレコードがあらかじめ登録されています。</block>
   <block id="38f629e4063339d47faa2680fb5430b6" category="summary">SaaS Backup for Salesforce を使用して、以前にバックアップしたデータをリストアできます。</block>
   <block id="75df29488cee441970e635e10895ab96" category="doc">データを復元しています</block>
   <block id="8a6db028191283c703eed35a59f0f74c" category="paragraph">SaaS Backup for Salesforce を使用して、以前にバックアップしたデータとメタデータをリストアできます。</block>
@@ -304,26 +202,6 @@
   <block id="7d8bbcc98602d1953273468f90996794" category="list-text">[ メタデータの種類とコンポーネント ] タブをクリックします。メタデータタイプのリストが表示されます。</block>
   <block id="0b44a282fea9f318d6aa6fe35f14e417" category="list-text">リストアするメタデータタイプを選択します。</block>
   <block id="ddf2845ff5cfefc8a98c1d794b252068" category="inline-image-macro">メタデータのリストアオプションをエクスポートおよびリストアする</block>
-  <block id="8e3a28cce9e7812fa7991d2061b45e89" category="summary">SaaS Backup for Salesforce の有料サブスクリプションアカウントを使用するには、アクティブ化コードを用意し、 Salesforce またはネットアップ SSO で登録する必要があります。</block>
-  <block id="8926faa4e5a10d0f0243615808a30b71" category="doc">SaaS Backup for Salesforce の有料サブスクリプションを開始するためのワークフロー</block>
-  <block id="79028fa3805f14c54fff1e4fccbeb3aa" category="paragraph">SaaS Backup for Salesforce の有料サブスクリプションを開始するには、次の手順を実行する必要があります。</block>
-  <block id="f93df33bcec134de70aa6f5f5a9ca867" category="list-text">アクティベーションコードを用意します。</block>
-  <block id="8c34905d5c70d3e2cf5ac591ec127d37" category="inline-link-macro">ストレージに関する情報を収集します</block>
-  <block id="d96294e3b794a6e1851d254effe6a6ed" category="list-text">SaaS Backup が提供する Amazon S3 ストレージを使用するか、 BYOS として Bring Your Own Storage （ BYOS ）オプションを使用するかを決定し、必要に応じて <block ref="17fefe0a295872a20e7276f780f16c3a" category="inline-link-macro-rx"></block>。</block>
-  <block id="34c2ab8b5dfb53508ac77a55cb24e0b2" category="inline-link-macro">Salesforce システム管理者アカウント</block>
-  <block id="8a1c7af594037341c70b34dadfe51ab9" category="list-text">をまだ持っていない場合 <block ref="de3491e1e5533718eb28960e8e4590dd" category="inline-link-macro-rx"></block>をクリックして作成します。</block>
-  <block id="91a1153d967981c76e72ac9228a502ea" category="inline-link-macro">SaaS Backup for Salesforce の有料サブスクリプション</block>
-  <block id="4ec8988d3cadeb4f7299e59ce280e4d6" category="list-text">に登録します <block ref="c58b2b151abcb48e6f3da17d6de1ac78" category="inline-link-macro-rx"></block> Salesforce アカウントまたはネットアップの SSO アカウントを使用している場合。</block>
-  <block id="8d177c4cb09434b5791bcca957274f83" category="inline-link-macro">Salesforce サービスを設定します</block>
-  <block id="eeb712d406d5bdd168d9b3c1cdc05801" category="list-text"><block ref="5a82c488b5acfb202b7ff96ce54f88be" category="inline-link-macro-rx"></block>。</block>
-  <block id="d183c69aa91976090cd5558b6f999ff1" category="inline-link-macro">本番インスタンスまたはサンドボックスインスタンスを追加します</block>
-  <block id="f161545864f1ead6eb550e9674adc493" category="list-text"><block ref="fa22b64e4f5b4e42860f9c5fe9a0f0e2" category="inline-link-macro-rx"></block>。</block>
-  <block id="3417df8ad141c41e8bd0154225e2ad8b" category="inline-link-macro">最初のバックアップのスケジュールを設定します</block>
-  <block id="68a6584ad1da1315877db1f42d23dd5e" category="list-text"><block ref="b2b0bcf71580b7033cf70caa06b51445" category="inline-link-macro-rx"></block>。</block>
-  <block id="b8e829ebd372ab87150037dda628f405" category="inline-link-macro">データをすぐにバックアップ</block>
-  <block id="090441fcbecad289110be4d66cf01903" category="list-text">必要に応じて、 <block ref="b9931efd210cd2417c5f926b414deb9e" category="inline-link-macro-rx"></block>。</block>
-  <block id="16daf462577519b0d19839a181d682b9" category="inline-image-macro">有料サブスクリプションのサインアッププロセスのワークフロー</block>
-  <block id="01e3b63e7958fc3e629477d4b4d8a7b0" category="paragraph"><block ref="01e3b63e7958fc3e629477d4b4d8a7b0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="summary">著作権に関する声明、商標、特許などにアクセスできます。</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法的通知</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">著作権</block>
@@ -372,16 +250,6 @@
   <block id="1b40ff58039e24d9c191a06c581a74f2" category="summary">NetApp SaaS Backup for Salesforce のドキュメントポータルへようこそ。</block>
   <block id="62a1bf19d63cf8abd2a45f03805b1a3a" category="doc">NetApp SaaS Backup for Salesforce のドキュメント</block>
   <block id="2b10feb741fcf4da10b719c0abfc97b5" category="paragraph">NetApp SaaS Backup は、 Salesforce データを Amazon S3 ストレージにバックアップする、セキュアなクラウドネイティブサービスです。SaaS Backup を使用すると、脅威や予想外の削除からデータを保護できます。</block>
-  <block id="bf647454e36069fd16f1a7a35cf6a865" category="section-title">はじめに</block>
-  <block id="494609082845b1b9570e9b12accd0270" category="inline-link-macro">無料トライアルを開始する</block>
-  <block id="c377e27a6756234e5dbc0a9ebc180b18" category="list-text"><block ref="c377e27a6756234e5dbc0a9ebc180b18" category="inline-link-macro-rx"></block></block>
-  <block id="f46d219f43a0dbcc59146e4522149f2a" category="inline-link-macro">有料購読の開始</block>
-  <block id="2ed856152f856a3f4702866634c724d3" category="list-text"><block ref="2ed856152f856a3f4702866634c724d3" category="inline-link-macro-rx"></block></block>
-  <block id="978927f191052797fe4aa3d9bfc1c061" category="inline-link-macro">Salesforce サービスを設定しています</block>
-  <block id="a952912503d02d76eb3af20b7ec2db84" category="list-text"><block ref="a952912503d02d76eb3af20b7ec2db84" category="inline-link-macro-rx"></block></block>
-  <block id="8444e7d90bb5c728d84257a5a331bc3a" category="inline-link-macro">本番サンドボックスインスタンスの追加</block>
-  <block id="8f42f22d9884fc868e065c8949ad9b98" category="list-text"><block ref="8f42f22d9884fc868e065c8949ad9b98" category="inline-link-macro-rx"></block></block>
-  <block id="fdf35b1227f429513ff332b975da2d7e" category="section-title">バックアップの管理およびデータのリストア</block>
   <block id="8344e5256205a6eb6d53c776a87325a9" category="list-text"><block ref="8344e5256205a6eb6d53c776a87325a9" category="inline-link-macro-rx"></block></block>
   <block id="c96ecffde6280d2fa1507c88f273acb6" category="section-title">フィードバックを提供するか、ヘルプを入手するか、詳細を確認します</block>
   <block id="5d103525a3377b97bd04e4e6de027e21" category="list-text"><block ref="5d103525a3377b97bd04e4e6de027e21" category="inline-link-macro-rx"></block></block>
@@ -421,31 +289,6 @@
   <block id="fb946ac62826c08c09ffa9bd4bdf1e4a" category="list-text">左側のナビゲーションペインで [* ジョブ ] をクリックします。</block>
   <block id="e638d1995e6647b2b7da636d46869bbb" category="list-text">「最近実行したジョブ」で、キャンセルするジョブを探します。</block>
   <block id="2188814b9661f9446f5934ae878cd88b" category="list-text">[ キャンセル（ Cancel ） ] をクリックします。</block>
-  <block id="1aff37c74ecec33e5eb093580744731f" category="summary">SaaS Backup for Salesforce の使用を開始するには、無料のサンドボックスアカウントにサインアップする必要があります。</block>
-  <block id="74b4efd3cf6ee8568ba764448fc16eba" category="doc">Salesforce の無料サンドボックスアカウントにサインアップします</block>
-  <block id="c4edca23e23d255d9e4575a20dbcac91" category="paragraph">Salesforce サンドボックスアカウントを使用すると、本番環境に導入する前に、テスト環境で SaaS Backup for Salesforce の機能をテストできます。</block>
-  <block id="5dda7d61b2dc5b329d94b85a75822d88" category="list-text">をクリックします <block ref="e861ad9259e82a986fbfa819c01808b9" category="inline-link-macro-rx"></block> 無料の Salesforce サンドボックスアカウントを起動します。</block>
-  <block id="0da8562cec542c8ef9aeec051f95743a" category="list-text">メールアカウントに移動して確認し、新しいサンドボックスアカウントを確認します。表示されるリンクから、アカウントのパスワードを作成するように求められます。</block>
-  <block id="96195831fb6be2a8e7c71f49b37b9178" category="list-text">新しく作成した Salesforce サンドボックスアカウントでは、 Lightning の体験とクラシックな体験を切り替えることができます。クラシックな体験に切り替えるには、 [ プロファイルの表示 ] をクリックし、 [*] をクリックして [Salesforce クラシックに切り替える *] をクリックします。これはオプションです。</block>
-  <block id="dbe37b796f1bdecc9a66ecc7396bdd27" category="list-text">検索バーで「 * Users * 」を検索し、「 * Users * 」を選択します。ユーザープロファイル * システム管理者 * の名前は、このアカウントの電子メールです。</block>
-  <block id="df1a5633ba7aa2b73a88aa145a078607" category="list-text">この電子メールを選択し、 * パスワードをリセット * します。これは、サインアップではログインするための電子メールとパスワードが提供されないため、必須の手順です。</block>
-  <block id="aa14f96837bca3cc006b9e44248c58cb" category="list-text">パスワードをリセットしたら、この電子メールとパスワードを使用してサンドボックスにログインできます。</block>
-  <block id="5824837e599913063988c3b7ea7b30d8" category="admonition">新しいアカウントには、サンプルのオブジェクトとレコードがあらかじめ入力されています。</block>
-  <block id="b4193608135d9233b168d0e451255254" category="summary">SaaS Backup for Salesforce の無償トライアルアカウントを使用するには、無償トライアルアクティベーションコードをお持ちで、 Salesforce または NetApp SSO で登録する必要があります。</block>
-  <block id="38caafd7007da7f0508b1706ce6ee460" category="doc">SaaS Backup for Salesforce の無償トライアルを開始するためのワークフロー</block>
-  <block id="da2266c46c524e419ee95e2931fa6108" category="paragraph">SaaS Backup for Salesforce の無償トライアルを開始するには、次の手順を実行する必要があります。</block>
-  <block id="e5b83f3bd74f57bedec7051b3edc0cea" category="inline-link-macro">無償トライアルの制限</block>
-  <block id="c876f58b8d35af05f223ac8e2eb6dbf1" category="list-text">に注意してください <block ref="bd35fc07ee955c0b2452281bf42d6ef2" category="inline-link-macro-rx"></block>。</block>
-  <block id="cd80e72aa996af149a742971d238d415" category="inline-link-macro">無償トライアルアクティベーションコード</block>
-  <block id="9df1fd0a9f40b2675e1b8568e405f455" category="list-text">に登録します <block ref="b85aed5fd7ed230909decf3eb950a4eb" category="inline-link-macro-rx"></block>。</block>
-  <block id="06ca336a4b4c2fe4a25ef0d462438ff7" category="inline-link-macro">Salesforce 開発者エディションのアカウント</block>
-  <block id="7a3b20330f1c2799e878e4fa289e5f8d" category="list-text">必要に応じて、にサインアップします <block ref="777d7faed71ecb06389414ef68e6759d" category="inline-link-macro-rx"></block>。</block>
-  <block id="3fd1bca5d83b4bd4eb3bcdbd102a17db" category="inline-link-macro">Salesforce サンドボックスアカウント</block>
-  <block id="59c1ec47ec4e5f35c6e8fd0b4bc2f813" category="list-text">必要に応じて、にサインアップします <block ref="b894c5044ed87beb654f53afaf59252d" category="inline-link-macro-rx"></block>。</block>
-  <block id="448a319ca49e8060234755b6e24751f9" category="inline-link-macro">SaaS Backup for Salesforce の無償トライアルをご利用いただけます</block>
-  <block id="08c53df332ffeb4ded9876ab55dd599e" category="list-text">に登録します <block ref="a3152a2658624e614eeec22d4cf67c4c" category="inline-link-macro-rx"></block> Salesforce アカウントまたはネットアップの SSO アカウントを使用している場合。</block>
-  <block id="46671751a991b10fda3d29f6f278422a" category="inline-image-macro">無料トライアルサインアッププロセスのワークフロー</block>
-  <block id="1efa6b8fbebb666fbb9589d802651652" category="paragraph"><block ref="1efa6b8fbebb666fbb9589d802651652" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0371b86706bebc66ab7d2867f25222f4" category="doc">再認証中です</block>
   <block id="38b3b15aa40d87ba9a9deeee25cd9978" category="paragraph">Salesforce では、資格情報を再認証する前に、最大 5 つのトークンを使用できます。バックアップまたは復元を開始しようとしたときに、すべてのトークンが使用されていた場合は、「 expired access/refresh token 」というエラーメッセージが表示されます。このメッセージが表示された場合は、次に進む前に再認証する必要があります。</block>
   <block id="018fe6950e6c2fd26254cfa46079f320" category="list-text">[ * アクセス許可の付与 * ] をクリックします。</block>
@@ -486,15 +329,6 @@
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">リリースノート</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新機能</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="sidebar">概要</block>
-  <block id="cb59b87e00d11222bfd9159d0d23836f" category="sidebar">はじめに</block>
-  <block id="24f47cdbe9ddba774a7cc53e51d9032e" category="sidebar">ワークフロー</block>
-  <block id="83f69d7470a1523248c6b5a55a8f0bbb" category="sidebar">無償トライアルアクティベーションコードを登録しています</block>
-  <block id="5ef08c73201f1821ef7151589ecd7af5" category="sidebar">BYOS オプションについて収集する情報</block>
-  <block id="9dde6a3e21483b29f5c49cd10bf8c403" category="sidebar">SaaS Backup for Salesforce の無償トライアルに登録してください</block>
-  <block id="e0768bfee463b944fe6eac1f58dc7acd" category="sidebar">新しいプロダクションまたはサンドボックスインスタンスの追加</block>
-  <block id="6cc1281916258dd43edd5fa4ee4b2824" category="sidebar">最初のバックアップのスケジュール設定</block>
-  <block id="b4601ecc2aaf0383c7cb700c4fd548f9" category="sidebar">SaaS Backup for Salesforce の管理</block>
-  <block id="c73860d21c3b18049dd79f53d4300814" category="sidebar">データを表示する</block>
   <block id="d648f2a68a54fd1b3329efc3cf24d29c" category="sidebar">法的通知</block>
   <block id="26d55f3915c82135ff8ac17c10c2ded7" category="paragraph"><block ref="26d55f3915c82135ff8ac17c10c2ded7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6fb2b97744d045afd98376f018b9f01d" category="list-text"><block ref="6fb2b97744d045afd98376f018b9f01d" category="inline-link-macro-rx"></block></block>
@@ -503,4 +337,8 @@
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知ファイルには、ネットアップソフトウェアで使用されるサードパーティの著作権およびライセンスに関する情報が記載されています。</block>
   <block id="af482b62e5f593026c0e1f3b25e33b22" category="inline-link-macro">SaaS Backup に関する注意事項</block>
   <block id="6adebe2fbffbd6dcb646696cd1bfc9ee" category="paragraph"><block ref="6adebe2fbffbd6dcb646696cd1bfc9ee" category="inline-link-macro-rx"></block></block>
+  <block id="627c67f84ecdab26e8531fb4f26a3d7f" category="section-title">バックアップの管理とデータのリストア</block>
+  <block id="712a1ac5f9f29147f308f24ea81ba27f" category="sidebar">SaaS Backup for Salesforce を管理</block>
+  <block id="91434d2ec1694706c5f6880d6fada769" category="sidebar">データを表示します</block>
+  <block id="1ae8a55f317d3b2570e79a0b4a668040" category="sidebar">フィードバックを提供する</block>
 </blocks>

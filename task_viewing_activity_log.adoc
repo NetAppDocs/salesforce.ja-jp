@@ -8,6 +8,7 @@ summary: SaaS Backup for Salesforce 内で実行されたすべてのアクテ�
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

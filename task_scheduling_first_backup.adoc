@@ -8,6 +8,7 @@ summary: サンドボックスインスタンスまたは本番環境インス�
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 
